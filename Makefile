@@ -24,8 +24,9 @@ DOCKER_PREFIX?=renku/singleuser
 DOCKER_LABEL?=latest
 JUPYTERHUB_VERSION?=0.9.6
 GIT_MASTER_HEAD_SHA:=$(shell git rev-parse --short=7 --verify HEAD)
-RVERSION?=3.5.1
+RVERSION?=3.5.2
 R_TAG=-r$(RVERSION)
+RENKU_VERSION?=0.7.0
 
 ifdef RENKU_VERSION
 	RENKU_PIP_SPEC="--spec renku==$(RENKU_VERSION)"
