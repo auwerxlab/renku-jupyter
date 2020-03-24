@@ -42,4 +42,4 @@ jobs:
       env:
         EXTENSION: ${{ matrix.EXTENSIONS }}
         RENKU_VERSION: ${{ matrix.RENKU_VERSION }}
-        DOCKER_NAME: "renku/renkulab"
+        DOCKER_NAME: "alexisrapintest/renku-docker-test"
